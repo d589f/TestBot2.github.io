@@ -3,7 +3,7 @@ from telebot import TeleBot, types
 TOKEN = '7374610503:AAHN6nVGHi3wsNw_cRoeCCQ4OonGTLDxeqQ'
 bot = TeleBot(TOKEN)
 
-WEBAPP_URL = 'https://d589f.github.io/TestBot.github.io/'
+WEBAPP_URL = 'https://d589f.github.io/TestBot3.github.io/'
 
 @bot.message_handler(commands=['start'])
 def start(message):
